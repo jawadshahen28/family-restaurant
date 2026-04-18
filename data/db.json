@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "شاورما عربي",
+      "description": "شاورما دجاج طازجة مع صوص طحينة وخضار",
+      "price": 25,
+      "category": "شاورما",
+      "image": "/images/shawarma.jpg",
+      "available": true,
+      "discount": 0
+    },
+    {
+      "id": "p2",
+      "name": "برجر لحم",
+      "description": "برجر لحم بقري مشوي مع جبنة وصوص خاص",
+      "price": 35,
+      "category": "برجر",
+      "image": "/images/burger.jpg",
+      "available": true,
+      "discount": 0
+    },
+    {
+      "id": "p3",
+      "name": "بيتزا مارغريتا",
+      "description": "بيتزا طازجة بالجبنة والطماطم وزيت الزيتون",
+      "price": 40,
+      "category": "بيتزا",
+      "image": "/images/pizza.jpg",
+      "available": true,
+      "discount": 0
+    },
+    {
+      "id": "p4",
+      "name": "فلافل",
+      "description": "فلافل مقرمشة طازجة مع خبز وسلطة",
+      "price": 15,
+      "category": "مقبلات",
+      "image": "/images/falafel.jpg",
+      "available": true,
+      "discount": 0
+    },
+    {
+      "id": "p5",
+      "name": "مكلوبة",
+      "description": "مكلوبة بالدجاج والأرز والخضار المشكلة",
+      "price": 45,
+      "category": "أكلات شعبية",
+      "image": "/images/makluba.jpg",
+      "available": true,
+      "discount": 0
+    },
+    {
+      "id": "p6",
+      "name": "منسف لحم",
+      "description": "منسف لحم على طريقة الجدة مع الجميد الأصلي",
+      "price": 65,
+      "category": "أكلات شعبية",
+      "image": "/images/mansaf.jpg",
+      "available": true,
+      "discount": 0
+    },
+    {
+      "id": "p7",
+      "name": "دجاج مشوي",
+      "description": "دجاج مشوي بالتوابل الطبيعية مع أرز وسلطة",
+      "price": 38,
+      "category": "مشاوي",
+      "image": "/images/grilled.jpg",
+      "available": true,
+      "discount": 0
+    },
+    {
+      "id": "p8",
+      "name": "عصير برتقال",
+      "description": "عصير برتقال طازج 100%",
+      "price": 10,
+      "category": "مشروبات",
+      "image": "/images/juice.jpg",
+      "available": true,
+      "discount": 0
+    }
+  ],
+  "orders": [],
+  "tables": [
+    {"id": "t1", "name": "طاولة 1"},
+    {"id": "t2", "name": "طاولة 2"},
+    {"id": "t3", "name": "طاولة 3"},
+    {"id": "t4", "name": "طاولة 4"},
+    {"id": "t5", "name": "طاولة 5"},
+    {"id": "t6", "name": "طاولة 6"}
+  ]
+}
