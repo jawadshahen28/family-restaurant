@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 <style>
+  /* كل الستايلات نفس ما هي، ما غيرت شي */
   :root {
     --gold: #C9A84C;
     --gold-light: #E8C97A;
@@ -720,7 +721,7 @@ window.addEventListener('scroll', () => {
 
 async function loadProducts() {
   try {
-    const res = await fetch('/api/products');
+    const res = await fetch('https://family-restaurant.onrender.com/api/products');
     products = await res.json();
     renderCategories();
     renderProducts(products);
@@ -1005,7 +1006,7 @@ async function submitOrder() {
   btn.disabled = true; btn.textContent = '⏳ جاري الإرسال...';
 
   try {
-    const res = await fetch('/api/orders', {
+    const res = await fetch('https://family-restaurant.onrender.com/api/orders', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -1049,7 +1050,7 @@ function showSuccess(order) {
 
 // ===== SSE =====
 function initSSE() {
-  const evtSource = new EventSource('/api/events');
+  const evtSource = new EventSource('https://family-restaurant.onrender.com/api/events');
   evtSource.addEventListener('message', e => {
     const data = JSON.parse(e.data);
     if (data.type === 'order_updated') {
